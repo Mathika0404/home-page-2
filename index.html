@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareView Clinic — Empowering Lives Through Health</title>
+  <meta name="description" content="CareView Clinic provides comprehensive medical solutions with trusted doctors, modern facilities, and compassionate care.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg"></div>
+
+  <!-- ====== Header ====== -->
+  <header class="container header">
+    <a class="brand" href="#">
+      <!-- <img src="./assets/stacklylogo.png" alt="stacklylogo" width="100px" height="100px"/> -->
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav>
+      <ul class="menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#doctors">Doctors</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="divider" aria-hidden="true"></li>
+        <li><a class="btn ghost" href="#login">Log in</a></li>
+      </ul>
+    </nav>
+    <!-- <img src="./assets/stacklylogo.png" alt="stacklylogo"/> -->
+  </header>
+
+  <!-- ====== Hero ====== -->
+  <section class="container hero" id="home">
+    <div class="hero-text">
+      <h1>Empowering Lives Through <span class="accent">Health</span></h1>
+      <p class="muted">Engaging health together. Your trusted medical team focused on your well‑being and lasting success.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#appointment">Book Appointment</a>
+        <a class="btn" href="#services">Explore Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="icon">👥</span>
+          <div><strong>12K+</strong><br><span class="muted">Happy Clients</span></div>
+        </div>
+        <div class="stat">
+          <span class="icon">✅</span>
+          <div><strong>84%</strong><br><span class="muted">Healing Success</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="shape ring"></div>
+      <div class="shape pill"></div>
+      <img class="illustration" src="./assets/hero-illustration.svg" alt="Doctor with patient in clinic">
+    </div>
+  </section>
+
+  <!-- ====== Trust Row ====== -->
+  <section class="container trust">
+    <div class="trust-left">
+      <h3>Your Bridge to Better Health<br><span class="muted">Start Your Journey Today.</span></h3>
+      <a class="btn small primary" href="#appointment">Get an appointment</a>
+    </div>
+    <div class="trust-mid">
+      <span class="muted">Our Clients</span>
+      <div class="avatars">
+        <img src="./assets/avatars/a1.jpg" alt="Client 1">
+        <img src="./assets/avatars/a2.jpg" alt="Client 2">
+        <img src="./assets/avatars/a3.jpg" alt="Client 3">
+        <img src="./assets/avatars/a4.jpg" alt="Client 4">
+      </div>
+      <strong>12K+</strong> <span class="muted">Verified testimonials</span>
+    </div>
+    <div class="trust-right">
+      <div class="pill-card">
+        <strong>84%</strong>
+        <span class="muted">Healing Success</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Services ====== -->
+  <section class="services container" id="services">
+    <h4 class="eyebrow">Our Services</h4>
+    <h2>Comprehensive Medical Solutions</h2>
+
+    <div class="service-grid">
+      <article class="service">
+        <div class="service-head">
+          <span class="dot"></span>
+          <h3>Cardiology</h3>
+        </div>
+        <p class="muted">Holistic heart care: diagnosis, treatment, and prevention with modern cardiac technology.</p>
+      </article>
+
+      <article class="service highlight">
+        <div class="service-head">
+          <span class="dot"></span>
+          <h3>Dentistry</h3>
+        </div>
+        <p class="muted">From routine checkups to cosmetic procedures with precise, gentle care.</p>
+      </article>
+
+      <article class="service">
+        <div class="service-head">
+          <span class="dot"></span>
+          <h3>Neurology</h3>
+        </div>
+        <p class="muted">Advanced diagnostics and therapy for brain and nervous system conditions.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====== Steps ====== -->
+  <section class="steps container">
+    <h2>4 Easy steps And Get Your Solution</h2>
+    <p class="muted center">Navigate health together. Your trusted medical resources meet modern technology at CareView.</p>
+
+    <div class="step-grid">
+      <article class="step highlight">
+        <div class="step-icon">🧑‍⚕️</div>
+        <h4>Check Doctor Profile</h4>
+        <p class="muted">Find experienced specialists that match your needs.</p>
+      </article>
+      <article class="step">
+        <div class="step-icon">💬</div>
+        <h4>Frequent Consultation</h4>
+        <p class="muted">Chat or visit with continuous care plans.</p>
+      </article>
+      <article class="step">
+        <div class="step-icon">📅</div>
+        <h4>Schedule Meeting</h4>
+        <p class="muted">Pick a date/time that fits your routine.</p>
+      </article>
+      <article class="step">
+        <div class="step-icon">💊</div>
+        <h4>Get Your Solution</h4>
+        <p class="muted">Personalized treatment and follow‑ups.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====== Doctors (carousel-like) ====== -->
+  <section class="container doctors" id="doctors">
+    <h2>Meet Our Doctors</h2>
+    <p class="muted center">We’re dedicated to your well‑being.</p>
+
+    <div class="doctor-carousel">
+      <button class="carousel-btn" id="prevBtn" aria-label="Previous">‹</button>
+      <div class="track" id="docTrack">
+        <article class="doctor-card">
+          <img src="./assets/avatars/doc1.jpg" alt="Dr. Priya Kumar">
+          <h4>Dr. Priya Kumar</h4>
+          <span class="muted">Cardiologist</span>
+        </article>
+        <article class="doctor-card">
+          <img src="./assets/avatars/doc2.jpg" alt="Dr. Manish Rao">
+          <h4>Dr. Manish Rao</h4>
+          <span class="muted">Dentist</span>
+        </article>
+        <article class="doctor-card">
+          <img src="./assets/avatars/doc3.jpg" alt="Dr. Aisha Noor">
+          <h4>Dr. Aisha Noor</h4>
+          <span class="muted">Neurologist</span>
+        </article>
+        <article class="doctor-card">
+          <img src="./assets/avatars/doc4.jpg" alt="Dr. Vivek Shah">
+          <h4>Dr. Vivek Shah</h4>
+          <span class="muted">General Physician</span>
+        </article>
+      </div>
+      <button class="carousel-btn" id="nextBtn" aria-label="Next">›</button>
+    </div>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer class="footer" id="contact">
+    <div class="container foot">
+      <div class="brand-compact">
+        <img src="./assets/stacklylogo.png" alt="CareView">
+      </div>
+
+      <form class="contact" onsubmit="event.preventDefault(); alert('Thanks! We will contact you soon.');">
+        <input type="email" placeholder="Enter your email" aria-label="Email address">
+        <button class="btn primary">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
